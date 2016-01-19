@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="10%p"
+    android:keyWidth="25%p">
+
+    <Row>
+        <Key
+            android:codes="11"
+            android:keyEdgeFlags="left"
+            android:keyLabel="快捷1" />
+        <Key
+            android:codes="12"
+            android:keyLabel="快捷2" />
+        <Key
+            android:codes="13"
+            android:keyLabel="快捷3" />
+        <!--删除按键长按时连续响应-->
+               
+        <Key
+            android:codes="60001"
+            android:keyLabel="DEL"
+            android:isRepeatable="true" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="101"
+            android:keyEdgeFlags="left"
+            android:keyLabel="文本1" />
+        <Key
+            android:codes="102"
+            android:keyLabel="文本2" />
+
+        <Key
+            android:codes="60003"
+            android:keyIcon="@mipmap/sym_keyboard_language_switch"/>
+        <Key
+            android:codes="60002"
+            android:keyLabel="Cancel" />
+    </Row>
+<!--    <Row>
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyLabel="1" />
+        <Key
+            android:codes="50"
+            android:keyLabel="2" />
+        <Key
+            android:codes="51"
+            android:keyLabel="3" />
+        <Key
+            android:codes="60002"
+            android:keyLabel="Cancel" />
+    </Row>-->
+</Keyboard>
